@@ -22,4 +22,20 @@ Start MySQL:
 docker compose up -d
 ```
 
-Place the Porto Taxi Trajectory dataset in `data/`.
+Place the Porto Taxi Trajectory dataset at `data/porto.csv`.
+
+## Part 1
+
+Run the exploratory data analysis:
+
+```powershell
+python eda.py
+```
+
+Create the database schema, clean the data and import it:
+
+```powershell
+python load_data.py
+```
+
+EDA figures are stored in `figures/`.
