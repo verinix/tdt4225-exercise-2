@@ -48,4 +48,6 @@ After importing the dataset, run the analytical queries:
 python queries.py
 ```
 
+## Part 3
+
 The report is stored in `docs/`.
