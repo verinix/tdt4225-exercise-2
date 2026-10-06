@@ -32,10 +32,18 @@ Run the exploratory data analysis:
 python eda.py
 ```
 
-Create the database schema, clean the data and import it:
+Create the database schema, clean the data, and import it:
 
 ```powershell
 python load_data.py
 ```
 
 EDA figures are stored in `figures/`.
+
+## Part 2
+
+After importing the dataset, run the analytical queries:
+
+```powershell
+python queries.py
+```
