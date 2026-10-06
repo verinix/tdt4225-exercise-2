@@ -47,3 +47,5 @@ After importing the dataset, run the analytical queries:
 ```powershell
 python queries.py
 ```
+
+The report is stored in `docs/`.
