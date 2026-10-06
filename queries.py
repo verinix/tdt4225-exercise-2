@@ -76,7 +76,7 @@ def task_4a(cursor):
 
     print("\nTask 4a")
     print(tabulate(most_used[:20], headers=["taxi_id", "call_type", "trip_count"], floatfmt=".2f"))
-    if len(rows) > 20:
+    if len(most_used) > 20:
         print("Showing first 20 taxis.")
 
 def task_4b(cursor):
